@@ -6,12 +6,14 @@ mypy~=1.10.1
 pre-commit~=4.2.0
 polyfactory~=2.21.0
 ruff~=0.11.10
+pyright~=1.1.344
 PyYAML~=6.0.1
 types-PyYAML~=6.0.12.20250516
 
 # Need specific versions
 pytest-homeassistant-custom-component==0.13.205
 myVaillant==0.6.0
+dacite~=1.7.0
 
 # Versions handled by pytest-homeassistant-custom-component
 freezegun
