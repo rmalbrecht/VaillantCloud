@@ -30,8 +30,5 @@ warn_incomplete_stub = true
 warn_redundant_casts = true
 warn_unused_configs = true
 
-[tool.pyright]
-typeCheckingMode = "basic"
-
 [tool.ruff.lint.pycodestyle]
 max-line-length = 120
