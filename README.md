@@ -118,3 +118,14 @@ logger:
     custom_components.vaillantcloud: debug
     myVaillant: debug
 ```
+# Screenshots
+
+## Heating
+
+![Bildschirmfoto 2025-05-31 um 21 25 17](https://github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558)
+
+## Water
+
+![Bildschirmfoto 2025-05-31 um 21 26 07](https://github.com/user-attachments/assets/00d5a8bc-4b1c-4147-8041-f9fcc864d7b1)
+
+![Bildschirmfoto 2025-05-31 um 21 27 37](https://github.com/user-attachments/assets/30d0c8bb-9920-44eb-a6ac-f9b859df9719)
