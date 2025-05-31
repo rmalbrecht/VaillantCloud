@@ -124,7 +124,7 @@ logger:
 
 ![Bildschirmfoto 2025-05-31 um 21 25 17](https://github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558)
 
-<img src="github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558" width="250">
+<img src="https://github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558" width="250">
 
 ## Water
 
