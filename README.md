@@ -7,7 +7,7 @@
 This Home Assistant component interfaces with the myVAILLANT API (and branded versions of it, such as the MiGo Link app
 from Saunier Duval & Bulex).
 
-![VaillantCloud](https://github.com/user-attachments/assets/665fd059-7516-42ed-afea-e95c43a70883)
+<img src="https://github.com/user-attachments/assets/665fd059-7516-42ed-afea-e95c43a70883" width="250">
 
 > [!WARNING] 
 > This integration is not affiliated with Vaillant, the developers take no responsibility for anything that happens to
@@ -122,12 +122,10 @@ logger:
 
 ## Heating
 
-![Bildschirmfoto 2025-05-31 um 21 25 17](https://github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558)
-
 <img src="https://github.com/user-attachments/assets/fef8fb96-d122-4244-9301-f7e56585c558" width="250">
 
 ## Water
 
-![Bildschirmfoto 2025-05-31 um 21 26 07](https://github.com/user-attachments/assets/00d5a8bc-4b1c-4147-8041-f9fcc864d7b1)
+<img src="https://github.com/user-attachments/assets/00d5a8bc-4b1c-4147-8041-f9fcc864d7b1" width="250">
 
-![Bildschirmfoto 2025-05-31 um 21 27 37](https://github.com/user-attachments/assets/30d0c8bb-9920-44eb-a6ac-f9b859df9719)
+<img src="https://github.com/user-attachments/assets/30d0c8bb-9920-44eb-a6ac-f9b859df9719" width="250">
