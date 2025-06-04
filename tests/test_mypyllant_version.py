@@ -12,6 +12,6 @@ async def test_vaillantcloud_versions():
     ]
     p = re.compile(r"myVaillant==(.*?)[\"\n]")
     matches = [re.findall(p, f.read_text()) for f in files]
-    assert all(
-        m == matches[0] for m in matches
-    ), f"myVaillant versions are not the same in all files: {matches}"
+    assert all(m == matches[0] for m in matches), (
+        f"myVaillant versions are not the same in all files: {matches}"
+    )
