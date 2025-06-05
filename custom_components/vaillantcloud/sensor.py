@@ -104,7 +104,7 @@ async def create_system_sensors(
                         index, device_index, system_coordinator
                     )
                 )
-            if device.on_off_cycles is not None:
+            if device.onOffCycles is not None:
                 sensors.append(
                     lambda: SystemDeviceOnOffCyclesSensor(
                         index, device_index, system_coordinator
@@ -1077,14 +1077,14 @@ class SystemDeviceOnOffCyclesSensor(SystemDeviceSensor):
 
     @property
     def native_value(self):
-        if self.device.on_off_cycles is not None:
-            return self.device.on_off_cycles
+        if self.device.onOffCycles is not None:
+            return self.device.onOffCycles
         else:
             return None
 
     @property
     def unique_id(self) -> str:
-        return f"{DOMAIN}_{self.id_infix}_on_off_cycles"
+        return f"{DOMAIN}_{self.id_infix}_onOffCycles"
 
     @property
     def name(self):
