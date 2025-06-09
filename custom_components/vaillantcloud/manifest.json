@@ -10,7 +10,7 @@
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/rmalbrecht/VaillantCloud/issues",
   "requirements": [
-    "myVaillant==0.8.0"
+    "myVaillant==1.0.0"
   ],
-  "version": "v0.9.18"
+  "version": "v1.0.0"
 }

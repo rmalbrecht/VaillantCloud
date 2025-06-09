@@ -11,7 +11,7 @@ types-PyYAML~=6.0.12.20250516
 
 # Need specific versions
 pytest-homeassistant-custom-component==0.13.205
-myVaillant==0.8.0
+myVaillant==1.0.0
 
 # Versions handled by pytest-homeassistant-custom-component
 freezegun
