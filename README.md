@@ -52,72 +52,16 @@ from Saunier Duval & Bulex).
 4. [Add VaillantCloud integration](https://my.home-assistant.io/redirect/config_flow_start/?domain=myVaillant)
 5. Sign in with the email & password you used in the myVAILLANT app (or MiGo app for Saunier Duval)
 
-# Options
+# Configuration
 
-## Seconds between scans
+Please read the [Wiki](https://github.com/rmalbrecht/VaillantCloud/wiki) !
 
-Wait interval between updating (most) sensors. **Don't set this too low, for example 10 leads to quota exceeded errors
-and a temporary ban**.
-
-The energy data and efficiency sensors have a fixed hourly interval.
-
-## Delay before refreshing data after updates
-
-How long to wait between making a request (i.e. setting target temperature) and refreshing data.
-The Vaillant takes some time to return the updated values.
-
-## Default duration in hours for quick veto
-
-When setting the temperature with the climate controls, the integration uses the "quick veto" feature of the myVAILLANT
-app.
-
-With this option you can set for how long the temperature should stay set, before returning to the default value.
-
-## Default duration in days for away mode
-
-When the away mode preset is activated, this duration is used to for the end date (default is 365 days).
-
-## Temperature controls overwrite time program instead of setting quick veto
-
-When raising or lowering the desired temperature in the myVAILLANT app, it sets a quick veto mode for a limited time
-with that new temperature, if the zone is in time controlled mode. If you want to permanently change the desired
-temperature, you need to update the time schedule.
-
-By default, this integration has the same behavior. But when enabling this option, the Home Assistant climate controls
-instead overwrite the temperatures set in the time schedule with the new value (unless quick veto is already active).
-
-## Country
-
-The country you registered your myVAILLANT account in. The list of options is limited to known supported countries.
-
-## Brand
-
-Brand of your HVAC equipment and app, pick Saunier Duval if you use the MiGo Link app.
-
-# Known Issues
-
-## Lack of Test Data for Different Systems
-
-Your HVAC system might differ from the ones in `Tested on` above.
-If you don't see any entities, or get an error during setup, please check `Debugging` below and create an issue.
-With debugging enabled, there's a chance to find the culprit in the data returned by the myVAILLANT API and fix it.
-
-## Vaillant Load Limits
+# Vaillant Load Limits
 
 To protect their API Vaillant has employed load limits. While the exact limits are unknown, the more app-installtions you have and the more often Home Assistant polls the information, the faster you will hit the limit. Nothing can be done here. Vaillant might just decline the API calls, or might eben ban your whole account. You have been warned!
 
-# Debugging
+Wait interval between updating (most) sensors. **Don't set this too low, for example 10 leads to quota exceeded errors and a temporary ban**.
 
-When debugging or reporting issues, turn on debug logging by adding this to your `configuration.yaml`
-and restarting Home Assistant:
-
-```yaml
-logger:
-  default: warning
-  logs:
-    custom_components.vaillantcloud: debug
-    myVaillant: debug
-```
 # Screenshots
 
 ## Heating
