@@ -1,3 +1,5 @@
+"""This module defines the HA entities which have the type bool."""
+
 from __future__ import annotations
 
 import logging

@@ -1,3 +1,5 @@
+"""Decorator that adds a check to ensure the session token is refreshed."""
+
 import functools
 
 

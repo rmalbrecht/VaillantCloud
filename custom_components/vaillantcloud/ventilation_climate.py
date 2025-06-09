@@ -1,3 +1,5 @@
+"""This module defines the HA entities which are used for the climate entity type."""
+
 from __future__ import annotations
 
 from typing import Mapping, Any

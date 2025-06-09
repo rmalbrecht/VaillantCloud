@@ -1,3 +1,5 @@
+"""This module defines the main entry point for the Vaillant Cloud integration."""
+
 from __future__ import annotations
 
 import logging

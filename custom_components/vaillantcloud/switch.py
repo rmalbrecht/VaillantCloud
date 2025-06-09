@@ -1,3 +1,5 @@
+"""This module defines the HA entities which are of type switch (on/off)."""
+
 from __future__ import annotations
 
 import logging

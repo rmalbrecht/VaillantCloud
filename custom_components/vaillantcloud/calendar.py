@@ -1,3 +1,5 @@
+"""This module defines the HA entities which are used in the calendar system."""
+
 from __future__ import annotations
 
 import copy

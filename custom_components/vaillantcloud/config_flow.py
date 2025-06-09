@@ -1,3 +1,5 @@
+"""This module is called by HAs configuration dialog."""
+
 from __future__ import annotations
 
 import logging

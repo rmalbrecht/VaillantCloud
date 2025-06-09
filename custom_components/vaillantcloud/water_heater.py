@@ -1,3 +1,5 @@
+"""This module defines the HA entities which are used for the water heater type."""
+
 import logging
 from collections.abc import Mapping
 from typing import Any

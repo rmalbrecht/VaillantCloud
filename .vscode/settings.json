@@ -12,5 +12,8 @@
         "activityBar.background": "#302F07",
         "titleBar.activeBackground": "#43420A",
         "titleBar.activeForeground": "#FBFBE6"
-    }
+    },
+    "cSpell.words": [
+        "SETPOINT"
+    ]
 }

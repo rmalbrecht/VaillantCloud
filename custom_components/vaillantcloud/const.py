@@ -1,3 +1,5 @@
+"""This module defines common constants used throughout this integration."""
+
 from myVaillant.enums import ZoneOperatingType
 
 DOMAIN = "vaillantcloud"
