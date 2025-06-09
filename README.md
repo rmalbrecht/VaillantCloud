@@ -60,4 +60,4 @@ from Saunier Duval & Bulex).
 Please read the [Wiki](https://github.com/rmalbrecht/VaillantCloud/wiki) !
 
 # Vaillant Load Limits
-To protect their API Vaillant has employed load limits. While the exact limits are unknown, the more app-installtions you have and the more often Home Assistant polls the information, the faster you will hit the limit. Nothing can be done here. Vaillant might just decline the API calls, or might even ban your whole account. You have been warned!
+To protect their API Vaillant has employed load limits. While the exact limits are unknown, the more app-installtions you have and the more often Home Assistant polls the information, the faster you will hit the limits. There is nothing, the integration can do here: you have to reduce your calls. Vaillant might just decline the API calls, or might even ban your whole account. You have been warned!
