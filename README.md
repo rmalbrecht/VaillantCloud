@@ -11,10 +11,10 @@ from Saunier Duval & Bulex).
 
 > [!WARNING] 
 > This integration is not affiliated with Vaillant, the developers take no responsibility for anything that happens to
-> your devices because of this library.
+> your devices because of this integration.
 
 > [!IMPORTANT] 
-> This integration uses the API which is developed by Vaillant for it's myVaillant App. The API therefore supports only what the app needs.
+> This integration uses an API which is developed by Vaillant for it's mobile myVaillant App. The API therefore only supports what the app needs.
 > If an information is not present in the app, it will also not be present in the API.
 > If a function is not supported by the app, it will also not be supported in the API.
 > This API is not scoped for smart home control, ... 
@@ -36,8 +36,7 @@ from Saunier Duval & Bulex).
 # Features
 * Supports climate & hot water controls, as well as sensor information
 * Control operating modes, target temperature, and presets such as holiday more or quick veto
-* Set the schedule for climate zones, water heaters, and circulation pumps
-  with a custom service  
+* Set the schedule for climate zones, water heaters, and circulation pumps with a custom service  
 * Track sensor information of devices, such as temperature, humidity, operating mode, energy usage, or energy efficiency
 * See diagnostic information, such as the current heating curve, flow temperature, firmware versions, or water pressure
 * Custom services to set holiday mode or quick veto temperature overrides, and their duration
