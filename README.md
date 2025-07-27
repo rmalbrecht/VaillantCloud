@@ -46,7 +46,7 @@ from Saunier Duval & Bulex).
 1. [Install HACS](https://hacs.xyz/docs/setup/download)
 2. Search for the myVAILLANT integration in HACS and install it
 3. Restart Home Assistant
-4. [Add VaillantCloud integration](https://my.home-assistant.io/redirect/config_flow_start/?domain=myVaillant)
+4. [Add VaillantCloud integration](https://my.home-assistant.io/redirect/config_flow_start/?domain=VaillantCloud)
 5. Sign in with the email & password you used in the myVAILLANT app (or MiGo app for Saunier Duval)
 
 # Screenshots
