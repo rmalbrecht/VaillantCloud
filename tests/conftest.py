@@ -92,7 +92,12 @@ async def system_coordinator_mock(hass, mocked_api) -> SystemCoordinator:
     ) as entry:
         entry.options = TEST_OPTIONS
         hass.data = {DOMAIN: {entry.entry_id: {}}}
-        return SystemCoordinator(hass, mocked_api, entry, update_interval=None)
+        coordinator = SystemCoordinator(hass, mocked_api, entry, update_interval=None)
+        yield coordinator
+        
+        # Clean up background tasks after test completion
+        if hasattr(coordinator, '_debounced_refresh') and coordinator._debounced_refresh:
+            coordinator._debounced_refresh.async_cancel()
 
 
 @pytest.fixture
