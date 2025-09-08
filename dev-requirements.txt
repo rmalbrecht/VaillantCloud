@@ -5,7 +5,7 @@ mock-open~=1.4.0
 mypy~=1.10.1
 pre-commit~=4.2.0
 polyfactory~=2.21.0
-ruff~=0.11.12
+ruff~=0.12.12
 PyYAML~=6.0.1
 types-PyYAML~=6.0.12.20250516
 
